@@ -1,0 +1,2 @@
+>=virtual/dist-kernel-6.5.9::gentoo
+>=virtual/dist-kernel-6.5.9::src_prepare-overlay

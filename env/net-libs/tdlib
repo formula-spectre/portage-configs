@@ -1,0 +1,1 @@
+pre_src_prepare() { find "$S" -name CMakeLists.txt -exec sed -i -- '/-fsanitize=/d' {} +; }

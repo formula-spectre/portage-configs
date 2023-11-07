@@ -1,0 +1,39 @@
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-lang/ghc-8.10.7 **
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-lang/ghc-9.0.1-r1 **
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-lang/ghc-9.2.4 **
+# required by dev-haskell/alex-3.2.7.1::haskell
+=dev-lang/ghc-9999 **
+# required by nyxt (argument)
+=www-client/nyxt-9999 **
+# required by =ghc-9.2.5 (argument)
+=dev-lang/ghc-9.2.5 **
+# required by net-wireless/crda-4.14::gentoo[-gcrypt]
+# required by net-wireless/iwd-2.3::gentoo[crda]
+# required by @selected
+# required by @world (argument)
+=dev-libs/openssl-3.1.0 **
+# required by sys-devel/llvm-toolchain-symlinks-16-r1::gentoo
+# required by sys-devel/llvm-16.0.0::gentoo
+# required by sys-devel/lld-16.0.0::gentoo
+# required by sys-devel/lld-toolchain-symlinks-16-r2::gentoo
+=sys-devel/llvm-16.0.0_rc4 **
+# required by sys-devel/llvm-16.0.0_rc4::clang-musl[polly]
+# required by sys-libs/compiler-rt-16.0.0::gentoo
+# required by sys-devel/clang-runtime-16.0.0::gentoo
+# required by sys-devel/clang-common-16.0.0::gentoo
+# required by sys-devel/clang-16.0.0::gentoo
+# required by sys-libs/libcxxabi-16.0.0::gentoo
+# required by sys-libs/libcxx-16.0.0::gentoo
+# required by @llvm
+# required by @selected
+# required by @world (argument)
+=sys-libs/polly-16.0.0_rc4 **
+# required by dev-haskell/text-1.2.5.0-r1::haskell
+# required by dev-haskell/lens-5.2.2::haskell
+# required by app-misc/kmonad-0.4.1.1_pre20220821::haskell
+# required by @selected
+# required by @world (argument)
+=dev-lang/ghc-9.0.2-r1 **

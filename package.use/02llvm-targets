@@ -1,0 +1,3 @@
+*/* llvm_targets_WebAssembly
+sys-devel/llvm llvm_targets_WebAssembly
+sys-devel/clang llvm_targets_WebAssembly

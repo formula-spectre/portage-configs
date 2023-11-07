@@ -1,0 +1,4 @@
+cross-avr/binutils  -multilib
+cross-avr/gcc  pie -nopie default-stack-clash-protection ssp hardened -nossp -multilib
+cross-avr/avr-libc  -multilib
+cross-avr/gdb  -multilib

@@ -1,0 +1,10 @@
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-lang/ghc-8.10.7 **
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-lang/ghc-9.0.1-r1 **
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-lang/ghc-9.2.4 **
+# required by dev-haskell/alex-3.2.7.1::haskell
+=dev-lang/ghc-9999 **
+# required by nyxt (argument)
+=www-client/nyxt-9999 **

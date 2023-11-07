@@ -1,0 +1,66 @@
+    */* PYTHON_TARGETS: -* python3_10 python3_11
+    */* PYTHON_SINGLE_TARGET: -* python3_10
+    */* PYTHON_TARGETS: -* python3_10 python3_11
+    */* PYTHON_SINGLE_TARGET: -* python3_11
+
+sys-fs/zfs-kmod dist-kernel
+sys-devel/binutils -static-libs
+sys-libs/binutils-libs -static-libs
+# required by kde-apps/kdenlive-23.04.1::gentoo
+# required by kdenlive (argument)
+>=media-libs/mlt-7.14.0 qt5 xml sdl ffmpeg frei0r
+# required by kde-apps/kdenlive-23.04.1::gentoo
+# required by kdenlive (argument)
+>=media-video/ffmpeg-4.4.4-r2 libass
+# required by media-plugins/frei0r-plugins-1.8.0::gentoo[facedetect]
+# required by media-libs/mlt-7.14.0::gentoo[frei0r]
+# required by kde-apps/kdenlive-23.04.1::gentoo
+# required by kdenlive (argument)
+>=media-libs/opencv-4.7.0 contribdnn
+media-libs/opencv contrib
+media-video/pipewire extra
+media-libs/mesa -vaapi
+# required by app-emulation/wine-vanilla-8.11-r1::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo
+# required by virtual/wine (argument)
+>=media-libs/libsdl2-2.28.0 haptic
+app-emulation/wine-vanilla mingw wow64
+sys-apps/pcsc-lite -libusb udev
+www-client/firefox openh264 -telemetry
+# required by app-text/calibre-5.44.0-r1::gentoo
+# required by calibre (argument)
+>=app-text/poppler-23.08.0 qt5
+# required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
+# required by calibre (argument)
+>=app-accessibility/speech-dispatcher-0.11.4-r2 python
+# required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
+# required by calibre (argument)
+>=dev-python/pillow-10.0.0 truetype
+# required by dev-python/PyQtWebEngine-5.15.6-r1::gentoo
+# required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
+# required by calibre (argument)
+>=dev-python/PyQt5-5.15.9-r1 printsupport webchannel
+# required by dev-python/PyQtWebEngine-5.15.6-r1::gentoo
+# required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
+# required by calibre (argument)
+>=dev-qt/qtwebengine-5.15.10_p20230623:5 widgets
+# required by dev-qt/qtwebengine-5.15.10_p20230623::12101111-overlay
+# required by dev-python/PyQtWebEngine-5.15.6-r1::gentoo
+# required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
+# required by calibre (argument)
+>=dev-qt/qtwebchannel-5.15.10:5 qml
+# required by games-util/sc-controller-0.4.8.11::gentoo[wayland]
+# required by @selected
+# required by @world (argument)
+>=gui-libs/gtk-layer-shell-0.8.1 introspection
+# required by app-containers/containers-common-0.56.0-r1::gentoo
+# required by app-containers/podman-4.7.0::gentoo
+# required by app-containers/distrobox-1.5.0.2::gentoo
+# required by distrobox (argument)
+>=net-firewall/iptables-1.8.9-r1 nftables
+gui-apps/tym LUA_SINGLE_TARGET: luajit
+app-shells/dash static
+sys-devel/gcc -jit -lto
+x11-misc/rofi -X
+net-p2p/qbittorrent webui
+app-editors/vim-core -nls

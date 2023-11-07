@@ -1,0 +1,343 @@
+*/* CPU_FLAGS_X86: aes avx mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3
+# required by gnome-base/gnome-keyring-42.1-r1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+# required by net-im/element-desktop-bin-1.11.8-r1::gentoo
+# required by element-desktop-bin (argument)
+>=app-crypt/gcr-3.41.1-r1:0 gtk
+# required by app-emacs/vterm-9999::akater
+# required by vterm (argument)
+>=app-editors/emacs-28.1-r3 dynamic-loading
+# required by app-editors/emacs-28.1-r3::gentoo
+# required by emacs (argument)
+>=app-emacs/emacs-common-1.8 gui
+# required by app-emacs/pdf-tools-9999::akater
+# required by pdf-tools (argument)
+>=app-text/poppler-22.09.0 cairo png
+# required by x11-misc/xdg-utils-1.1.3_p20210805::gentoo
+# required by kde-frameworks/kf-env-5::gentoo
+# required by kde-frameworks/solid-5.97.0::gentoo
+# required by kde-misc/kdeconnect-22.08.0::gentoo
+# required by kdeconnect (argument)
+>=app-text/xmlto-0.0.28-r8 text
+# required by dev-libs/libappindicator-12.10.1_p20200706::gentoo
+# required by app-emacs/telega-9999::akater[tray]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+# required by www-client/ungoogled-chromium-105.0.5195.125_p1::pf4public
+# required by ungoogled-chromium (argument)
+>=dev-libs/libxml2-2.10.2 icu
+# required by media-gfx/krita-5.0.8::gentoo[python_single_target_python3_10]
+# required by krita (argument)
+>=dev-python/PyQt5-5.15.6 declarative gui widgets
+# required by kde-frameworks/kcoreaddons-5.97.0::gentoo
+# required by kde-frameworks/kcontacts-5.97.0::gentoo
+# required by dev-libs/kpeoplevcard-0.1-r1::gentoo
+# required by kde-misc/kdeconnect-22.08.0::gentoo
+# required by kdeconnect (argument)
+>=dev-qt/qtcore-5.15.5-r3 icu
+# required by dev-qt/qtwayland-5.15.5-r1::gentoo
+>=dev-qt/qtgui-5.15.5-r2 egl
+# required by net-im/telegram-desktop-4.2.4::gentoo
+# required by telegram-desktop (argument)
+>=dev-qt/qtgui-5.15.5-r2 jpeg
+# required by kde-misc/kdeconnect-22.08.0::gentoo
+# required by kdeconnect (argument)
+>=dev-qt/qtmultimedia-5.15.5-r1 qml
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/bundler-2.3.8-r1 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/did_you_mean-1.6.1 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/json-2.6.2 ruby_targets_ruby31
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-3.1.2-r1::gentoo[rdoc]
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/kpeg-1.3.1 ruby_targets_ruby31
+# required by sys-fs/cryptsetup-2.4.3-r2::gentoo
+# required by sys-libs/libblockdev-2.28::gentoo[cryptsetup]
+# required by sys-fs/udisks-2.9.4-r1::gentoo
+# required by kde-frameworks/solid-5.99.0::gentoo
+# required by kde-misc/kdeconnect-22.08.2::gentoo
+# required by kdeconnect (argument)
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/minitest-5.16.3 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/power_assert-2.0.2 ruby_targets_ruby31
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-3.1.2-r1::gentoo[rdoc]
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/psych-4.0.6 ruby_targets_ruby31
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-3.1.2-r1::gentoo[rdoc]
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/rubygems-3.3.8::gentoo[ruby_targets_ruby31]
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by dev-ruby/rbs-2.5.1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/typeprof-0.21.3::gentoo[ruby_targets_ruby27]
+>=dev-ruby/racc-1.6.0 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/rake-13.0.6-r1 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/rbs-2.5.1 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.2-r1::gentoo[rdoc]
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/rdoc-6.4.0 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/rexml-3.2.5-r1 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/rss-0.2.9-r1 ruby_targets_ruby31
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-3.1.2-r1::gentoo[rdoc]
+# required by dev-ruby/rbs-2.5.1::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/typeprof-0.21.3::gentoo[ruby_targets_ruby31]
+>=dev-ruby/rubygems-3.3.8 ruby_targets_ruby31
+# required by dev-ruby/psych-4.0.6::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-3.1.2-r1::gentoo[rdoc]
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/stringio-3.0.2 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/test-unit-3.5.5 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.6::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/typeprof-0.21.3 ruby_targets_ruby31
+# required by kde-frameworks/plasma-5.99.0::gentoo
+# required by kde-misc/kdeconnect-22.08.2::gentoo
+# required by kdeconnect (argument)
+>=kde-frameworks/kconfig-5.99.0 qml
+# required by kde-frameworks/qqc2-desktop-style-5.99.0::gentoo
+# required by kde-misc/kdeconnect-22.08.2::gentoo
+# required by kdeconnect (argument)
+>=kde-frameworks/sonnet-5.99.0 qml
+# required by media-gfx/tuxpaint-0.9.28-r2::gentoo
+# required by tuxpaint (argument)
+>=media-gfx/graphicsmagick-1.3.38-r3 jpeg png svg
+# required by app-admin/pass-1.7.4-r2::gentoo
+# required by pass (argument)
+>=media-gfx/qrencode-4.1.1 png
+# required by media-gfx/graphviz-7.0.0::gentoo
+# required by media-gfx/imagemagick-7.1.0.48::gentoo[graphviz]
+# required by imagemagick (argument)
+>=media-libs/gd-2.3.3-r1 fontconfig truetype
+# required by media-gfx/gimp-2.10.32-r1::gentoo
+# required by gimp (argument)
+>=media-libs/gegl-0.4.38 cairo
+# required by www-client/ungoogled-chromium-105.0.5195.125_p1::pf4public[system-harfbuzz]
+# required by ungoogled-chromium (argument)
+>=media-libs/harfbuzz-5.2.0 icu
+# required by www-client/librewolf-106.0.1_p1::clang-musl[system-png]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libpng-1.6.38 apng
+# required by www-client/ungoogled-chromium-105.0.5195.125_p1::pf4public[system-libvpx]
+# required by ungoogled-chromium (argument)
+>=media-libs/libvpx-1.12.0 postproc
+# required by x11-libs/gtk+-3.24.34-r1::gentoo[wayland]
+# required by gui-apps/wofi-1.2.4::guru
+# required by gui-apps/wofi (argument)
+>=media-libs/mesa-22.2.2 wayland
+# required by media-gfx/tuxpaint-0.9.28-r2::gentoo
+# required by tuxpaint (argument)
+>=media-libs/sdl-image-1.2.12_p20210314 png
+# required by net-im/telegram-desktop-4.2.4::gentoo
+# required by telegram-desktop (argument)
+>=media-video/ffmpeg-4.4.3 opus
+# required by www-client/ungoogled-chromium-105.0.5195.125_p1::pf4public
+# required by ungoogled-chromium (argument)
+>=net-libs/nodejs-18.9.0 inspector
+# required by app-portage/pfl-3.2-r2::gentoo[network-cron]
+# required by pfl (argument)
+>=sys-apps/util-linux-2.38.1 caps
+# required by app-editors/emacs-28.1-r3::gentoo[jit]
+# required by app-emacs/emacs-common-1.8::gentoo
+>=sys-devel/gcc-12.2.0 jit
+# 
+# required by sys-devel/llvmgold-15::gentoo
+# required by llvmgold (argument)
+>=sys-devel/llvm-15.0.3 binutils-plugin
+# required by dev-libs/quazip-1.3-r1::gentoo
+# required by media-gfx/krita-5.0.8::gentoo
+# required by krita (argument)
+>=sys-libs/zlib-1.2.12-r3 minizip
+# required by sys-apps/busybox-1.34.1-r1::gentoo[static]
+# required by busybox (argument)
+>=virtual/libcrypt-1-r1 static-libs
+# required by dev-ruby/racc-1.6.0::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/rdoc-6.4.0::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-3.1.2-r1::gentoo[rdoc]
+# required by dev-ruby/rbs-2.5.1::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/typeprof-0.21.3::gentoo[ruby_targets_ruby27]
+>=virtual/ruby-ssl-12 ruby_targets_ruby31
+# required by dev-ruby/typeprof-0.21.3::gentoo[-test,ruby_targets_ruby31]
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by dev-ruby/rbs-2.5.1::gentoo[ruby_targets_ruby31]
+>=virtual/rubygems-17 ruby_targets_ruby31
+# required by www-client/librewolf-106.0.5_p1::clang-musl[pgo,X]
+# required by @selected
+# required by @world (argument)
+>=x11-base/xorg-server-21.1.4 xvfb
+#dev-haskell/* profile
+# required by gui-apps/wofi-1.2.4::guru
+# required by gui-apps/wofi (argument)
+>=x11-libs/gtk+-3.24.34-r1 wayland
+app-admin/doas pam persist
+app-crypt/gcr gtk
+app-crypt/pinetry -gtk
+app-editors/vim -X
+app-emacs/vterm zsh
+app-emulation/qemu -pin-upstream-blobs
+app-emulation/virtualbox -alsa -dbus -opengl -opus -pam -pulseaudio -sdk -sdl -udev
+app-misc/kmonad profile
+app-misc/mime-types nginx
+app-misc/pax-utils python
+app-mobilephone/heimdall gui
+app-text/aspell l10n_en l10n_it
+app-text/ghostscript-gpl -cups
+app-text/hunspell l10n_en l10n_it
+dev-haskell/* profile
+dev-haskell/haskell-language-server hls_formatters_brittany
+dev-lang/ghc -ghcbootstrap llvm profile
+dev-lang/rust -system-bootstrap profiler
+dev-libs/bemenu -X -ncurses wayland
+dev-libs/libusb -static-libs
+dev-python/PyQt5 declarative network
+gui-apps/waybar -pulseaudio tray
+kde-frameworks/kio -kwallet
+media-fonts/noto cjk
+media-gfx/gimp -alsa
+media-gfx/imagemagick corefonts djvu fontconfig graphviz hdri jpeg jpeg2k lzma pango raw svg tiff truetype webp xml
+media-libs/freetype harfbuzz
+media-libs/libsdl2 gles2
+media-libs/mesa -llvm
+media-sound/mpg123 -pulseaudio
+media-video/ffmpeg mp3 sdl x264 x265 xvid
+media-video/pipewire pipewire-alsa sound-server
+net-libs/tdlib -gcc
+net-p2p/transmission -gtk lightweight
+sys-apps/openrc sysv-utils
+sys-apps/pciutils -static-libs
+sys-auth/oath-toolkit -pam -static-libs
+sys-auth/pambase elogind
+sys-auth/seatd builtin -elogind server
+sys-cluster/k3s rootless
+sys-devel/gcc -fortran -jit -lto -openmp
+sys-devel/llvm polly zstd
+sys-fs/android-file-transfer-linux fuse
+sys-fs/e2fsprogs -lto
+sys-fs/lvm2 static static-libs -thin -udev
+www-client/librewolf lto pgo system-png system-python-libs
+www-client/ungoogled-chromium system-openjpeg widevine
+x11-base/xorg-server -elogind
+x11-misc/picom opengl
+x11-misc/redshift -gtk -nls
+x11-misc/xmobar -alsa -dbus -profile -weather xft xpm -xrender
+x11-wm/stumpwm contrib
+app-shells/mksh static lksh test
+app-text/tessdata_fast l10n_en
+sys-firmware/intel-microcode hostonly
+app-mobilephone/scrcpy -lto
+# required by games-simulation/lincity-ng-2.9_beta::gentoo
+# required by games-simulation/lincity-ng (argument)
+>=media-libs/libsdl-1.2.15_p20221201 opengl
+# required by games-simulation/lincity-ng-2.9_beta::gentoo
+# required by games-simulation/lincity-ng (argument)
+>=media-libs/sdl-mixer-1.2.12_p20221010 vorbis
+media-libs/sdl-mixer smpeg
+# required by app-emulation/waydroid-1.3.4-r5::guru[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyclip-0.7.0 wayland
+app-alternatives/tar -libarchive gnu
+app-editors/emacs svg acl cairo tiff inotify minimal gif source harfbuzz xpm gmp gui zlib imagemagick json libxml2 png ssl threads jpeg dynamic-loading xft -lto -jit -xwidgets
+app-emacs/telega org tray
+app-emacs/portage smart-live-rebuild pona helm
+app-arch/libarchive zstd lzo lz4
+sys-apps/util-linux tty-helpers
+www-client/firefox system-png pgo
+gui-wm/sway grimshot tray
+# required by media-libs/libsdl-1.2.60::gentoo
+# required by media-libs/sdl-image-1.2.12_p20220527-r1::gentoo
+# required by games-roguelike/dwarf-fortress-0.47.05-r1::gentoo
+# required by dwarf-fortress (argument)
+>=media-libs/libsdl2-2.26.2 opengl
+games-roguelike/dwarf-fortress gui
+sys-fs/zfs custom-cflags test-suite
+sys-fs/zfs-kmod custom-cflags test-suite
+# required by media-gfx/blender-3.4.1::gentoo
+# required by blender (argument)
+>=media-libs/freetype-2.12.1-r2 brotli
+# required by media-gfx/blender-3.4.1::gentoo[ffmpeg]
+# required by blender (argument)
+>=media-video/ffmpeg-4.4.3 theora vorbis vpx
+# required by virtual/fortran-0-r1::gentoo
+# required by sci-libs/fftw-3.3.10::gentoo
+# required by media-gfx/blender-3.4.1::gentoo[fftw]
+# required by blender (argument)
+>=sys-devel/gcc-12.2.0 fortran openmp

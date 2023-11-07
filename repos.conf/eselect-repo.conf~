@@ -1,0 +1,65 @@
+# created by eselect-repo
+
+[clang-musl]
+location = /var/db/repos/clang-musl
+sync-type = git
+sync-uri = https://github.com/clang-musl-overlay/clang-musl-overlay.git
+
+[akater]
+location = /var/db/repos/akater
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/akater.git
+
+[musl]
+location = /var/db/repos/musl
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/musl.git
+
+[guru]
+location = /var/db/repos/guru
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/guru.git
+
+
+
+
+
+
+
+
+[haskell]
+location = /var/db/repos/haskell
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/haskell.git
+
+
+[12101111-overlay]
+location = /var/db/repos/12101111-overlay
+sync-type = git
+sync-uri = https://github.com/12101111/overlay
+
+
+[dm9pZCAq]
+location = /var/db/repos/dm9pZCAq
+sync-type = git
+sync-uri = https://notabug.org/dm9pZCAq/dm9pZCAq-overlay
+
+[amano-kenji]
+location = /var/db/repos/amano-kenji
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/amano-kenji.git
+
+
+[src_prepare-overlay]
+location = /var/db/repos/src_prepare-overlay
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/src_prepare-overlay.git
+
+[local]
+location = /var/db/repos/local
+
+
+[librewolf]
+location = /var/db/repos/librewolf
+sync-type = git
+sync-uri = https://codeberg.org/librewolf/gentoo.git
